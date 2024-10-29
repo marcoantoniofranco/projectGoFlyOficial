@@ -1,0 +1,24 @@
+.header {
+  height: 100vh;
+  background: url('/src/assets/images/background.png') center/cover no-repeat;
+  padding: 1.5rem 2rem;
+}
+
+.header__nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header__nav ul li {
+  font-size: 2.4rem;
+}
+
+.header__logo {
+  margin-right: 24rem;
+}
+
+.button {
+  margin-left: 24rem;
+}
