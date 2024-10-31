@@ -13,9 +13,11 @@ body {
   font-family: 'Asap', sans-serif;
   line-height: 2.4rem;
   color: #fff;
+  background-color: #04373b;
 }
 
 button {
+  font-family: inherit;
   font-weight: 500;
   cursor: pointer;
   border: none;
