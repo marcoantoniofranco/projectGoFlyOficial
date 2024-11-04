@@ -1,0 +1,84 @@
+#pricing__plans {
+  background-color: #fff;
+}
+
+.pricing {
+  padding: 8rem 0;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.pricing__header {
+  text-align: center;
+  width: 51.1rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.pricing__header h2 {
+  color: #000;
+  margin-bottom: 1.6rem;
+  font-size: 4.8rem;
+  line-height: 1.2;
+}
+
+.pricing__header p {
+  color: #666;
+  font-size: 1.8rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.pricing__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+  padding: 0 2rem;
+}
+
+.pricing__card {
+  background: #ebf6f9;
+  border-radius: 2rem;
+  padding: 3.6rem 0;
+}
+
+.card__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card__header h3 {
+  color: #333;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.amount {
+  font-size: 11rem;
+  font-weight: 100;
+  color: #034449;
+  margin-bottom: 3.6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.card__features {
+  margin: 3rem 0;
+  display: grid;
+  place-items: center;
+  gap: 1.6rem;
+}
+
+.card__features li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  color: #04373b;
+  font-size: 2rem;
+  width: 80%;
+}
+
+.card__features img {
+  width: 2rem;
+  height: 2rem;
+}

@@ -32,3 +32,8 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+h2 {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
