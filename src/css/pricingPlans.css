@@ -42,13 +42,30 @@
   padding: 3.6rem 0;
 }
 
+.pricing__card__premium {
+  background: #04373b;
+  border-radius: 2rem;
+  padding: 3.6rem 0;
+}
+
 .card__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card__header__premium {
   text-align: center;
   margin-bottom: 3rem;
 }
 
 .card__header h3 {
   color: #333;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.card__header__premium h3 {
+  color: #fff;
   font-size: 2.4rem;
   margin-bottom: 2rem;
 }
@@ -62,7 +79,22 @@
   width: 100%;
 }
 
+.amount__premium {
+  font-size: 11rem;
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: 8.6rem;
+  text-align: center;
+  width: 100%;
+}
+
 .card__features {
+  margin: 3rem 0;
+  display: grid;
+  place-items: center;
+  gap: 1.6rem;
+}
+.card__features__premium {
   margin: 3rem 0;
   display: grid;
   place-items: center;
@@ -78,7 +110,26 @@
   width: 80%;
 }
 
+.card__features__premium li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  color: #fff;
+  font-size: 2rem;
+  width: 80%;
+}
+
 .card__features img {
   width: 2rem;
   height: 2rem;
+}
+
+.includes {
+  font-weight: 600;
+}
+
+.card__button {
+  display: block;
+  margin: 0 auto;
+  width: 31.8rem;
 }

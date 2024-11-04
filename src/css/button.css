@@ -27,3 +27,8 @@
   transform: scale(4);
   opacity: 1;
 }
+
+.card__button {
+  background-color: #fff;
+  border-radius: 8px;
+}
