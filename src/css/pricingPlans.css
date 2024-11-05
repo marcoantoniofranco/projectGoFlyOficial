@@ -119,6 +119,10 @@
   width: 80%;
 }
 
+.card__features__premium li:nth-child(2) {
+  color: #ffe769;
+}
+
 .card__features img {
   width: 2rem;
   height: 2rem;
@@ -126,10 +130,4 @@
 
 .includes {
   font-weight: 600;
-}
-
-.card__button {
-  display: block;
-  margin: 0 auto;
-  width: 31.8rem;
 }
