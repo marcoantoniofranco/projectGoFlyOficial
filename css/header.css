@@ -1,7 +1,38 @@
 .header {
+  padding: 1.5rem 2rem;
+}
+
+.header.with-background {
   height: 100vh;
   background: url('/src/assets/images/background.jpg') center/cover no-repeat;
-  padding: 1.5rem 2rem;
+}
+
+.header__nav ul li a {
+  color: #fff;
+}
+
+.header.dark-text ul li a {
+  color: #04373b;
+}
+
+.header.dark-text .button {
+  color: #04373b;
+}
+
+.header__logo .logo-dark {
+  display: none;
+}
+
+.header__logo .logo-light {
+  display: block;
+}
+
+.header.dark-text .header__logo .logo-dark {
+  display: block;
+}
+
+.header.dark-text .header__logo .logo-light {
+  display: none;
 }
 
 .header__nav ul {

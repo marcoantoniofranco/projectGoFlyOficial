@@ -1,0 +1,124 @@
+.testimonials-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.testimonials-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonials-header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.testimonials-header h2 {
+  color: #034449;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding-bottom: 2rem;
+}
+
+.testimonials-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding-top: 40px;
+  margin-bottom: 2rem;
+}
+
+.testimonial-card {
+  background-color: rgba(235, 246, 249, 0.7);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  width: 380px;
+  min-height: 280px;
+}
+
+.profile-image-container {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card h3 {
+  color: #034449;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-text {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.palm-decoration {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination-dots {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #034449;
+}

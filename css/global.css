@@ -16,6 +16,10 @@ body {
   background-color: #04373b;
 }
 
+body.pricing-page {
+  background-color: #fff;
+}
+
 button {
   font-family: inherit;
   font-weight: 500;
@@ -31,6 +35,7 @@ ul li {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: #fff;
 }
 
 h2 {
