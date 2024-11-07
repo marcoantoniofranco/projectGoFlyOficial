@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/about.css
 .testimonials-section {
   position: relative;
   width: 100%;
@@ -121,4 +122,96 @@
 
 .dot.active {
   background-color: #034449;
+=======
+.sobre-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre-content {
+  flex: 1;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sobre-content h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #c7c3c3;
+  color: #ffffff;
+  padding: 60px 40px;
+  position: relative;
+  background-image: url("/projectGoFly/src/assets/images/jpg/footer_bg.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.footer-container {
+  padding-top: 400px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  color: #e1bd3beb;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: rgba(65, 218, 197, 0.3);
+}
+
+.footer__logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer__nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__nav ul li {
+  margin: 0 10px;
+}
+
+.footer__nav ul li a img {
+  width: 24px;
+  height: 24px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  color: #cccccc;
+  font-size: 14px;
+>>>>>>> 628037e589945d64397b7de24313f41232160bd3:src/css/about.css
 }
