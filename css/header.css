@@ -1,11 +1,10 @@
 .header {
   padding: 1.5rem 2rem;
-<<<<<<< HEAD:css/header.css
 }
 
 .header.with-background {
   height: 100vh;
-  background: url('/src/assets/images/background.jpg') center/cover no-repeat;
+  background: url('../assets/images/background.jpg') center/cover no-repeat;
 }
 
 .header__nav ul li a {
@@ -34,14 +33,6 @@
 
 .header.dark-text .header__logo .logo-light {
   display: none;
-=======
->>>>>>> 628037e589945d64397b7de24313f41232160bd3:src/css/header.css
-}
-
-.header.with-background {
-  height: 100vh;
-  background: url("/projectGoFly/src/assets/images/jpg/background.jpg")
-    center/cover no-repeat;
 }
 
 .header__nav ul li a {
@@ -97,7 +88,7 @@
 }
 
 .header__nav ul li::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
