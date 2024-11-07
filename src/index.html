@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Gofly</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,15 +12,41 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/global.css" />
-
-    <script defer src="js/loadContent.js"></script>
+    <link rel="stylesheet" href="/src/css/global.css" />
+    <link rel="stylesheet" href="/src/css/header.css" />
+    <link rel="stylesheet" href="/src/css/button.css" />
+    <link rel="stylesheet" href="/src/css/pricingPlans.css" />
+    <link rel="stylesheet" href="/src/css/about.css" />
+    <link rel="stylesheet" href="/src/css/carousel.css" />
   </head>
   <body>
-    <main>
-      <div id="header"></div>
+    <header class="header with-background">
+      <div class="header__content">
+        <nav class="header__nav">
+          <ul>
+            <div class="header__logo">
+              <img
+                src="/src/assets/images/logotipo.svg"
+                alt="logotipo da empresa GoFly"
+                class="logo-light"
+              />
+              <img
+                src="/src/assets/images/logotipo-dark.svg"
+                alt="logotipo da empresa GoFly"
+                class="logo-dark"
+              />
+            </div>
+            <li><a href="/">Começo</a></li>
+            <li><a href="/pacotes">Pacotes</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+            <li><a href="/destino">Destino</a></li>
+            <button class="button">Começar</button>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <div id="pricing__plans"></div>
-    </main>
+    <main></main>
+    <script type="module" src="/src/js/routes.js"></script>
   </body>
 </html>
