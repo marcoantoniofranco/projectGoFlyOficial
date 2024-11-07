@@ -121,6 +121,8 @@
 
 .dot.active {
   background-color: #034449;
+}
+
 .sobre-page {
   min-height: 100vh;
   display: flex;
@@ -145,7 +147,7 @@
   color: #ffffff;
   padding: 60px 40px;
   position: relative;
-  background-image: url("/projectGoFly/src/assets/images/jpg/footer_bg.png");
+  background-image: url('/projectGoFly/src/assets/images/jpg/footer_bg.png');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
